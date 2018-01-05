@@ -44,6 +44,36 @@ public class QuizGame {
 		if(word.equals("10")) {
 			score++;
 		}
+		word=JOptionPane.showInputDialog("I'm more powerful than God, more evil than the devil, the poor have me, the rich need me. If you eat me you'll die. What am I?")	;
+		// 3.  Use an if statement to check if their answer is correct
+		if(word.equals("nothing")) {
+			score++;
+		}
+		word=JOptionPane.showInputDialog("What's black when you get it, red when you use it, and white when you're all through with it?")	;
+		// 3.  Use an if statement to check if their answer is correct
+		if(word.equals("charcoal")) {
+			score++;
+		}
+		word=JOptionPane.showInputDialog("Ripped from my mothers womb, beaten and burned, I became a blood thirsty killer. What am I?")	;
+		// 3.  Use an if statement to check if their answer is correct
+		if(word.equals("iron ore")) {
+			score++;
+		}
+		word=JOptionPane.showInputDialog("I am always hungry, I must always be fed, The finger I touch will soon turn red?")	;
+		// 3.  Use an if statement to check if their answer is correct
+		if(word.equals("fire")) {
+			score++;
+		}
+		word=JOptionPane.showInputDialog("What word looks the same upside down and backwards?")	;
+		// 3.  Use an if statement to check if their answer is correct
+		if(word.equals("swims")) {
+			score++;
+		}
+		word=JOptionPane.showInputDialog("There was a plane crash every single person died. Who survived?")	;
+		// 3.  Use an if statement to check if their answer is correct
+		if(word.equals("married couples")) {
+			score++;
+		}
 		// 6.  After all the questions have been asked, print the user's score 
 		System.out.println(score);
 	}
